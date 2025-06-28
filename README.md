@@ -6,7 +6,7 @@ RestoByte is a sentiment analysis web application built using Streamlit and Text
 
 ## Project Overview
 
-This project demonstrates the application of Natural Language Processing (NLP) techniques in a real-world scenario—analyzing customer sentiment in the restaurant domain.
+This project demonstrates the application of Natural Language Processing (NLP) techniques in a real-world scenario, analyzing customer sentiment in the restaurant domain.
 
 Key functionalities include:
 - Sentiment classification using TextBlob
