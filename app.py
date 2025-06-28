@@ -10,8 +10,26 @@ nltk.download('punkt', quiet=True)  # Required for TextBlob tokenization
 # ----- Page Setup -----
 st.set_page_config(page_title="RestoByte Sentiment Dashboard", layout="wide", page_icon="🍽️")
 st.markdown("""
-    <h1 style='text-align: center; color: white;'>🍽️ RestoByte: A Sentiment Analysis on Restaurant Reviews </h1>
+    <style>
+        .adaptive-header {
+            text-align: center;
+            font-size: 2em;
+            font-weight: bold;
+        }
+        @media (prefers-color-scheme: dark) {
+            .adaptive-header {
+                color: white;
+            }
+        }
+        @media (prefers-color-scheme: light) {
+            .adaptive-header {
+                color: black;
+            }
+        }
+    </style>
+    <h1 class='adaptive-header'>🍽️ RestoByte: A Sentiment Analysis on Restaurant Reviews</h1>
 """, unsafe_allow_html=True)
+
 
 # ----- Custom Button Styling -----
 st.markdown("""
