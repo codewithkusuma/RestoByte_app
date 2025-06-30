@@ -1,7 +1,8 @@
 streamlit
 pandas
-textblob
 matplotlib
 seaborn
 wordcloud
 nltk
+scikit-learn
+numpy
